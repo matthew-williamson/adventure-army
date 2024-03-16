@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "content": "Anyone interested in going to the UK?",
+    "user": {
+      "id": 2,
+      "username": "ukdave",
+      "firstName": "Dave",
+      "lastName": "Walldorf",
+      "avatarUrl": "/random-avatar-1.png"
+    }
+  },
+  {
+    "id": 2,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "content": "I've got a spare room in Manchester if anyone wants to crash this weekend.",
+    "user": {
+      "id": 3,
+      "username": "manchestersarah",
+      "firstName": "Sarah",
+      "lastName": "Mittendorf",
+      "avatarUrl": "/random-avatar-2.png"
+    }
+  },
+  {
+    "id": 3,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "content": "Rustic farm room open for a stay!",
+    "user": {
+      "id": 4,
+      "username": "farmerbrian",
+      "firstName": "Brian",
+      "lastName": "Wallmittendorf",
+      "avatarUrl": "/random-avatar-3.png"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "firstName": "Matt",
+    "lastName": "Williamson",
+    "username": "mlloydwilliamson1",
+    "email": "matt@adventurearmy.com",
+    "address": "1 Adventure Way",
+    "city": "Phoenix",
+    "state": "AZ",
+    "postalCode": "85050",
+    "avatarUrl": "/user-avatar.jpg",
+    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "roles": ["Host", "Adventurer"]
+  },
+  {
+    "id": 2,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "firstName": "Dave",
+    "lastName": "Walldorf",
+    "username": "ukdave",
+    "email": "dave@adventurearmy.com",
+    "address": "2 Adventure Way",
+    "city": "Phoenix",
+    "state": "AZ",
+    "postalCode": "85050",
+    "avatarUrl": "/random-avatar-1.png",
+    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "roles": ["Host", "Adventurer"]
+  },
+  {
+    "id": 3,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "firstName": "Sarah",
+    "lastName": "Mittendorf",
+    "username": "manchestersarah",
+    "email": "sarah@adventurearmy.com",
+    "address": "3 Adventure Way",
+    "city": "Phoenix",
+    "state": "AZ",
+    "postalCode": "85050",
+    "avatarUrl": "/random-avatar-2.png",
+    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "roles": ["Host", "Adventurer"]
+  },
+  {
+    "id": 4,
+    "createdDate": "2024-03-16T16:59:21.869Z",
+    "firstName": "Brian",
+    "lastName": "Wallmittendorf",
+    "username": "farmerbrian",
+    "email": "brian@adventurearmy.com",
+    "address": "4 Adventure Way",
+    "city": "Phoenix",
+    "state": "AZ",
+    "postalCode": "85050",
+    "avatarUrl": "/random-avatar-3.png",
+    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "roles": ["Host", "Adventurer"]
+  }
+]
