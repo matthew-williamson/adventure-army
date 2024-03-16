@@ -25,3 +25,10 @@ export interface Post {
   content: string;
   user: Partial<User>;
 }
+
+// The friends DB/type would probably be shaped something like this:
+interface Friends {
+  id: number;
+  user1: User;
+  user2: User;
+}
