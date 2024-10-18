@@ -1,4 +1,4 @@
-import { Avatar, Divider, Stack, Typography } from "@mui/material";
+import { Avatar, Stack, Typography } from "@mui/material";
 import userApi from "../api/userApi";
 import { format } from "date-fns";
 
@@ -53,12 +53,12 @@ export default async function ProfilePage({ searchParams }: ProfilePageProps) {
   );
 
   return (
-    <Stack spacing={3}>
+    <Stack spacing={3} sx={{ p: 2 }}>
       <Stack
         spacing={1}
         sx={{
           alignItems: "center",
-          backgroundColor: "rgba(255, 170, 136, 0.2)",
+          backgroundColor: 'white',
           borderRadius: "4px",
           p: 1,
         }}
@@ -77,6 +77,7 @@ export default async function ProfilePage({ searchParams }: ProfilePageProps) {
       <Stack
         direction="row"
         sx={{
+          backgroundColor: 'white',
           alignItems: "center",
           justifyContent: "space-between",
           border: "1px solid rgba(255, 170, 136, 0.5)",
@@ -93,6 +94,7 @@ export default async function ProfilePage({ searchParams }: ProfilePageProps) {
       </Stack>
       <Stack
         sx={{
+          backgroundColor: 'white',
           alignItems: "center",
           justifyContent: "space-between",
           border: "1px solid rgba(255, 170, 136, 0.5)",

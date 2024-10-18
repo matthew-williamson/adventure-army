@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navigation from "./navigation/navigation";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
+import Footer from "./footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={inter.className}
-        style={{ maxWidth: 1200, margin: "auto" }}
+        style={{ padding: 0, margin: 0, backgroundColor: 'rgba(255, 170, 136, 0.3)' }}
       >
-        <Stack spacing={1}>
-          <Navigation />
-          {children}
+        <Stack sx={{ justifyContent: 'space-between', minHeight: '100vh !important'}}>
+          <Box>
+            <Navigation />
+            {children}
+          </Box>
+          <Footer />
         </Stack>
       </body>
     </html>

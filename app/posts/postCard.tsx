@@ -19,6 +19,7 @@ export default function PostCard({ post }: PostCardProps) {
       <Stack
         direction="row"
         sx={{
+          backgroundColor: 'white',
           alignItems: "center",
           borderRadius: "4px",
           border: "1px solid rgba(255, 170, 136, 0.5)",

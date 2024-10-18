@@ -14,7 +14,7 @@ export default async function Home({ searchParams }: HomeProps) {
     ? posts.find((post) => post.id === Number(maybePostModalId))
     : null;
   return (
-    <Stack spacing={2}>
+    <Stack spacing={2} sx={{ p: 2 }}>
       {posts.map((post) => (
         <PostCard post={post} key={`post-${post.id}`} />
       ))}
